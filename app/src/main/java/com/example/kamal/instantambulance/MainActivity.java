@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.kamal.instantambulance.BloodDonor.BloodDonorLogin;
+import com.example.kamal.instantambulance.Hospital.HospitalLogin;
 import com.example.kamal.instantambulance.LiveSaver.LoginActivity;
 import com.example.kamal.instantambulance.LiveSaver.SignUpActivity;
 
@@ -35,28 +37,28 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        mHospital.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this,SignUpHospitalActivity.class);
-//                startActivity(intent);
-//            }
-//        });
-//
-//        mBloodDonor.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this,SignUpDonorActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        mHospital.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HospitalLogin.class);
+                startActivity(intent);
+            }
+        });
+
+        mBloodDonor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BloodDonorLogin.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
 
     private void init_Reference(){
         mlifesaver = (Button)findViewById(R.id.btn_lifesaver);
-//        mHospital = (Button)findViewById(R.id.btn_hospital);
-//        mBloodDonor = (Button)findViewById(R.id.btn_blooddonor);
+        mHospital = (Button)findViewById(R.id.btn_hospital);
+        mBloodDonor = (Button)findViewById(R.id.btn_blooddonor);
     }
 }

@@ -15,4 +15,9 @@
     <color name="transparent">#00000000</color>
     <color name="editTextBG">#DADADA</color>
     <color name="textColor">#6e6e6e</color>
+
+   <color name="blue_darkest">#1565C0</color>
+    <color name="blue_dark">#2196F3</color>
+    <color name="blue_light">#90CAF9</color>
+    <color name="blue_lightest">#E3F2FD</color>
 </resources>

@@ -28,6 +28,10 @@
             </activity>
 
         <activity android:name=".LiveSaver.LoginActivity"></activity>
+
+
+        <activity android:name=".Hospital.HospitalLogin"></activity>
+        <activity android:name=".Hospital.HospitalSignUp"></activity>
     </application>
 
 </manifest>
