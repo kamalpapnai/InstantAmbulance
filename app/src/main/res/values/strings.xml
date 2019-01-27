@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">InstantAmbulance</string>
+    <string name="statement">I agree to save innocent\'s life in case any accident takes place.</string>
+    <string name="saver_login_text">Login as a Life Saver</string>
+    <string name="hospital_login_text">Login as a Hospital</string>
+    <string name="blooddonor_login_text">Login as a Blood Donor</string>
 </resources>
